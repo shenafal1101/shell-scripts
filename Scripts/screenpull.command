@@ -3,7 +3,7 @@
 # Preconditions: screenshot is made manually
 
 # Script retrievs your latest screenshot by mentioned path from device and move it to destination folder
-# Then script opens screenshot by any фppropriate app
+# Then script opens screenshot by any appropriate app
 
 echo "Pulling newest screenshot..."
 file=$(adb shell ls -r -t "sdcard/PATH_TO_SCREENSHOTS" | grep jpg | tail -n1)
