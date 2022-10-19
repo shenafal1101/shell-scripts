@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# Script configurating proxy on your device and launch Charles Proxy app.
+# Script configurates proxy on your device and launch Charles Proxy app.
 # Then script is waiting till you close the Charles after you finished your activities
 # After Charles closure, script reset device proxy settings to default
 
