@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# Script is uninstalling existing .apk file and install the latest new one
+# Script is uninstalling existing .apk on your device file and install the latest new one which you already downloaded on your local machine
 
 echo "deleting existing apk"
 adb uninstall PACKAGE_NAME
